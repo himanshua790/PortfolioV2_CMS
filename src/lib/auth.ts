@@ -19,6 +19,7 @@ export const authConfig = {
   pages: {
     signIn: '/login'
   },
+  secret: process.env.SECRET,
   providers: [
     Credentials({
       name: 'Credentials',
