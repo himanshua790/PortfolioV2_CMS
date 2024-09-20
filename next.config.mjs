@@ -8,7 +8,7 @@ const nextConfig = {
     NEXT_PUBLIC_AUTHOR: process.env.NEXT_PUBLIC_AUTHOR,
     API_KEY: process.env.API_KEY,
     API_SECRET: process.env.API_SECRET,
-    NEXTAUTH_URL: process.env.NEXTAUTH_URL,
+    NEXTAUTH_URL: process.env.VERCEL_URL || process.env.NEXTAUTH_URL,
     NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET
   }
 }
