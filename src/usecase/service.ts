@@ -22,7 +22,7 @@ export class ServiceUseCase {
       const services = await this.repository.findMany({
         skip: offset,
         take: ITEM_PER_PAGE,
-        orderBy: { createdAt: 'desc' }
+        orderBy: { id: 'asc' }
       })
       return services
     } catch (err) {

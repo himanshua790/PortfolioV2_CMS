@@ -17,94 +17,40 @@ export const projectDefaultValueForm = {
 }
 
 export const stackOptions = [
-  {
-    id: 'next.js',
-    label: 'Next.js'
-  },
-  {
-    id: 'react.js',
-    label: 'React.js'
-  },
-  {
-    id: 'nuxt.js',
-    label: 'Nuxt.js'
-  },
-  {
-    id: 'vue.js',
-    label: 'Vue.js'
-  },
-  {
-    id: 'react-native',
-    label: 'React Native'
-  },
-  {
-    id: 'jest',
-    label: 'Jest'
-  },
-  {
-    id: 'redux',
-    label: 'Redux'
-  },
-  {
-    id: 'react-query',
-    label: 'React Query'
-  },
-  {
-    id: 'node-js',
-    label: 'Node JS'
-  },
-  {
-    id: 'express.js',
-    label: 'Express.js'
-  },
-  {
-    id: 'tailwindcss',
-    label: 'TailwindCSS'
-  },
-  {
-    id: 'material-ui',
-    label: 'Material UI'
-  },
-  {
-    id: 'bootstrap',
-    label: 'Bootstrap'
-  },
-  {
-    id: 'chakraui',
-    label: 'ChakraUI'
-  },
-  {
-    id: 'firebase',
-    label: 'Firebase'
-  },
-  {
-    id: 'postgresql',
-    label: 'PostgreSql'
-  },
-  {
-    id: 'prisma',
-    label: 'Prisma'
-  },
-  {
-    id: 'sass',
-    label: 'SASS'
-  },
-  {
-    id: 'javascript',
-    label: 'JavaScript'
-  },
-  {
-    id: 'typescript',
-    label: 'TypeScript'
-  },
-  {
-    id: 'html',
-    label: 'HTML'
-  },
-  {
-    id: 'css',
-    label: 'CSS'
-  }
+  { id: 'javascript', label: 'JavaScript' },
+  { id: 'typescript', label: 'TypeScript' },
+  { id: 'html5', label: 'HTML5' },
+  { id: 'css3', label: 'CSS3' },
+  { id: 'react.js', label: 'React.js' },
+  { id: 'next.js', label: 'Next.js' },
+  { id: 'three.js', label: 'Three.js' },
+  { id: 'tailwindcss', label: 'TailwindCSS' },
+  { id: 'material-ui', label: 'Material UI' },
+  { id: 'redux', label: 'Redux' },
+  { id: 'react-query', label: 'React Query' },
+  { id: 'node.js', label: 'Node.js' },
+  { id: 'express.js', label: 'Express.js' },
+  { id: 'python', label: 'Python' },
+  { id: 'django', label: 'Django' },
+  { id: 'rest', label: 'REST' },
+  { id: 'graphql', label: 'GraphQL' },
+  { id: 'jwt', label: 'JWT' },
+  { id: 'oauth', label: 'OAuth' },
+  { id: 'rabbitmq', label: 'RabbitMQ' },
+  { id: 'mysql', label: 'MySQL' },
+  { id: 'postgresql', label: 'PostgreSQL' },
+  { id: 'mongodb', label: 'MongoDB' },
+  { id: 'redis', label: 'Redis' },
+  { id: 'aws', label: 'AWS' },
+  { id: 'google-cloud', label: 'Google Cloud' },
+  { id: 'jest', label: 'Jest' },
+  { id: 'puppeteer', label: 'Puppeteer' },
+  { id: 'ci-cd', label: 'CI/CD' },
+  { id: 'git', label: 'Git' },
+  { id: 'github', label: 'GitHub' },
+  { id: 'agile', label: 'Agile' },
+  { id: 'scrum', label: 'Scrum' },
+  { id: 'jira', label: 'Jira' }
 ] as const
 
 export type IProject = {
